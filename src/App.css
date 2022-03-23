@@ -1,0 +1,68 @@
+
+body{
+  background-image: url("./Assets/Space-Background-Image-2.jpeg");
+}
+ul {
+  padding-inline-start: 30px;
+  padding: 40px;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 21%;
+}
+
+li {
+  border: 2px solid, #242f44 ;
+  padding: 5px;
+  border-radius: 10px;
+  list-style: none;
+  size: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.background {
+  /* background-image: url('./Assets/Space-Background-Image-8.jpeg'); */
+  width: 60%;
+  margin-left: 21%;
+  border-radius: 15px;
+}
+h1 {
+  position: relative;
+  text-align: center;
+  color: #8c6b48;
+}
+form {
+  text-align: center;
+}
+
+form input {
+  height: 30px;
+}
+form .submit{
+  width: 10%;
+  height: 30px;
+  border-radius: 15px;
+}
+.complete {
+  color: orange; 
+  size:30%;
+  border-radius: 15px;
+}
+
+.complete h4 {
+  text-decoration: line-through;
+}
+
+.incomplete {
+  color: greenyellow;
+  size: 30%;
+}
+.complete, .incomplete{
+  flex-direction: column;
+  border-radius: 15px;
+}
+input {
+  border-radius: 15px;
+  width: 30%;
+}
